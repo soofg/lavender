@@ -69,8 +69,6 @@ Mijn focus gaat liggen op responsive maken.
 
 **Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
 
-https://creator.milka.nl/?utm_source=milkaHub&utm_medium=banner&utm_campaign=creator
-
 https://www.milka.nl/
 
 **Screenshot(s):**
