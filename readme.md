@@ -75,7 +75,7 @@ https://www.milka.nl/
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg) (images/Naamloos.svg) (images/Naamloos2.svg) (images/Naamloos3.svg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Naamloos.svg images/Naamloos2.svg images/Naamloos3.svg);
 
 
 **Breakdown-schets(en):**
