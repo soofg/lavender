@@ -71,6 +71,8 @@ Mijn focus gaat liggen op responsive maken.
 
 https://www.milka.nl/
 
+https://www.milka.nl/over-milka/geschiedenis
+
 **Screenshot(s):**
 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Naamloos.jpg)
@@ -80,4 +82,7 @@ https://www.milka.nl/
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-]
+![breakdown schets 1.0](images/breakdownschets1.jpg)
+![breakdown schets 2.0](images/breakdownschets2.jpg)
+
