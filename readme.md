@@ -83,6 +83,6 @@ https://www.milka.nl/over-milka/geschiedenis
 **Breakdown-schets(en):**
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-]
-![breakdown schets 1.0](images/breakdownschets1.jpg)
-![breakdown schets 2.0](images/breakdownschets2.jpg)
+![breakdown schets 1.0](images/breakdownschets1.jpeg)
+![breakdown schets 2.0](images/breakdownschets2.jpeg)
 
