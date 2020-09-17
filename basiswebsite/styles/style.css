@@ -1,0 +1,265 @@
+main {    
+    overflow-x: hidden;
+}
+
+header {
+    background-color: mediumpurple;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav li {
+    flex-grow: 1;
+    padding: inherit;
+}
+
+header nav a {
+    line-height: 1.0em;
+}
+
+nav ul li a {
+    background-color: mediumpurple;
+    font-size: 18px;
+    color: white;
+    font-family: 'Recoleta Medium', 'Domine', serif;
+    
+}
+
+nav {
+    margin-left: -170px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.logo {
+    display: block;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+ /* Containers om sections incl. image + buttons */
+
+section:nth-of-type(1) {
+    display: inline-flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section:nth-of-type(2) {
+    display: inline-flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section:nth-of-type(3) {
+    display: inline-flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section:nth-of-type(4) {
+    display: inline-flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section:nth-of-type(5) {
+    display: inline-flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section:nth-of-type(6) {
+    display: inline-flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section:nth-of-type(7) {
+    background-color: white;
+    padding: 20px;
+    
+}
+
+section:nth-of-type(8) {
+    background-color: lavenderblush;
+    padding: 20px;
+    
+}
+
+
+ /* Images */
+
+img[src="images/milka%20home.png"] {
+    object-fit: cover;
+    display: block;
+    width: 210%;
+    height: auto;
+    position: relative;      
+}
+
+img[src="images/milka%20darkmilk.png"] {
+    object-fit: cover;
+    display: block;
+    width: 210%;
+    height: auto;
+    position: relative; 
+    
+}
+
+img[src="images/milka%20bescuits.png"] {
+    object-fit: cover;
+    display: block;
+    width: 99%;
+    height: auto;
+    position: relative; 
+    
+}
+
+img[src="images/milk%20splash.png"] {
+    object-fit: cover;
+    position: relative;
+    display: block;
+    width: 200%;
+    height: 110%;
+}
+
+img[src="images/Milka%20max%20bar.png"] {
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative; 
+    background-color: white;
+    
+}
+
+ /* buttons */
+
+button {
+    background-color: white;
+    border-radius: 60px;
+    border-bottom-style: solid;
+    border-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.bluebuttons {
+    background-color: lightblue;
+    border-radius: 60px;
+    border-bottom-style: solid;
+    border-color: lightblue;
+    padding: 10px;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 9em;
+}
+
+.doemeeknop {
+    position: absolute;
+    margin-top: 80%;
+    background-color: white;
+    border-radius: 60px;
+    border-bottom-style: solid;
+    border-color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.whitebuttons {
+    background-color: white;
+    border-radius: 60px;
+    border-bottom-style: solid;
+    border-color: white;
+    padding: 10px;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 35%;
+    display: block;
+}
+
+.ontdekmeerbutton {
+    background-color: lightblue;
+    border-radius: 60px;
+    border-bottom-style: solid;
+    border-color: white;
+    padding: 10px;
+    font-size: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+
+
+body {
+    background-color: mediumpurple;
+    background-size: cover;
+    margin: auto;
+
+}
+
+h1 {
+    color: white;
+    font-family: 'Recoleta Medium', 'Domine', serif;
+    background-color: mediumpurple;
+    padding: 15px 15px 15px 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+h5:nth-of-type(1) {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+}
+
+h3:nth-of-type(1) {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+    margin-top: 20%;
+}
+
+h2:nth-of-type(1) {
+    
+}
+    
+p:nth-of-type(1) {
+        
+}
+
+ol {
+    list-style-type: none;
+}
+    
