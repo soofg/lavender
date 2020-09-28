@@ -3,117 +3,158 @@ main {
 }
 
 header {
-    background-color: mediumpurple;
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+header nav {
+    flex-grow: 1;
+}
+
+
 header nav ul {
-    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    opacity: 0;
+    transition: all 500ms ease;
+    transform: translateX(-6vw);
+    background: white;
+    color: black;
 }
 
 header nav li {
     flex-grow: 1;
-    padding: inherit;
+    text-align: center;
+    min-width: 1em;
 }
 
+
 header nav a {
-    line-height: 1.0em;
+    line-height: 2em;
+
 }
 
 nav ul li a {
-    background-color: mediumpurple;
-    font-size: 18px;
-    color: white;
+    font-size: 19px;
     font-family: 'Recoleta Medium', 'Domine', serif;
-    
-}
-
-nav {
-    margin-left: -170px;
+    justify-content: center;
 }
 
 ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 
-.logo {
-    display: block;
+/*hamburger menu*/
+
+@media (min-width: 500px) {
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+        opacity: 1;
+        background: none;
+        color: white;
+    }
+    
+    header {
+        display: flex;
+    }
+    
+    .menuknop {
+        display: none;
+    }
 }
+
+/*class for toggle*/
+
+.toonMenu {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 
 img {
     height: 100%;
     width: 100%;
 }
 
- /* Containers om sections incl. image + buttons */
+ /* sections incl. image + buttons */
 
+/*Milka home afbeelding + doe mee knop*/
+
+/*Milka home afbeelding + doe mee knop*/
 section:nth-of-type(1) {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
 
+/*Milka dripping */
 section:nth-of-type(2) {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
+
+/*Milka & oreo*/
 
 section:nth-of-type(3) {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
+
+/*Milka bubbles*/
 
 section:nth-of-type(4) {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
+
+/*Milka chocotabs*/
 
 section:nth-of-type(5) {
-    display: inline-flex;
+    display: block;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-}
-
-section:nth-of-type(6) {
-    display: inline-flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-section:nth-of-type(7) {
     background-color: white;
     padding: 20px;
-    
 }
 
-section:nth-of-type(8) {
-    background-color: lavenderblush;
+/*Milka geschiedenis */
+section:nth-of-type(6) {
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
-    
+    background: lavenderblush;
 }
+
 
 
  /* Images */
+img[src="images/Milka%20logo%20wit.png"] {
+    width: 7em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 img[src="images/milka%20home.png"] {
     object-fit: cover;
     display: block;
     width: 210%;
     height: auto;
-    position: relative;      
+    position: relative;     
 }
 
 img[src="images/milka%20darkmilk.png"] {
@@ -123,7 +164,7 @@ img[src="images/milka%20darkmilk.png"] {
     height: auto;
     position: relative; 
     
-}
+} 
 
 img[src="images/milka%20bescuits.png"] {
     object-fit: cover;
@@ -138,9 +179,11 @@ img[src="images/milk%20splash.png"] {
     object-fit: cover;
     position: relative;
     display: block;
-    width: 200%;
+    width: 300%;
     height: 110%;
 }
+
+
 
 img[src="images/Milka%20max%20bar.png"] {
     object-fit: cover;
@@ -162,11 +205,12 @@ button {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 25px;
+    font-size: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .bluebuttons {
@@ -175,31 +219,37 @@ button {
     border-bottom-style: solid;
     border-color: lightblue;
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px; 
     position: absolute;
-    margin-top: 9em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .doemeeknop {
     position: absolute;
-    margin-top: 80%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
     background-color: white;
     border-radius: 60px;
     border-bottom-style: solid;
     border-color: white;
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
-.whitebuttons {
+.nieuwsbutton {
     background-color: white;
     border-radius: 60px;
     border-bottom-style: solid;
     border-color: white;
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
     position: absolute;
-    margin-top: 35%;
+    top: 50%;
+    left: 50%:
+    transform: translate(-50%, -50%);
     display: block;
 }
 
@@ -209,7 +259,7 @@ button {
     border-bottom-style: solid;
     border-color: white;
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto; 
@@ -222,7 +272,6 @@ body {
     background-color: mediumpurple;
     background-size: cover;
     margin: auto;
-
 }
 
 h1 {
@@ -234,6 +283,15 @@ h1 {
     text-align: center;
 }
 
+h4 {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 9em;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
 
 
 h5:nth-of-type(1) {
@@ -241,25 +299,90 @@ h5:nth-of-type(1) {
     text-align: center;
     right: 0;
     left: 0;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h3:nth-of-type(1) {
     position: absolute;
     text-align: center;
-    right: 0;
     left: 0;
-    margin-top: 20%;
+    right: 0;
+    margin-top: 4em;
+    font-family: 'Recoleta Medium', 'Domine', serif;
 }
 
 h2:nth-of-type(1) {
+    font-family: 'Recoleta Medium', 'Domine', serif;
     
 }
     
 p:nth-of-type(1) {
+    font-family: 'Quicksand', sans-serif;
         
+}
+
+/*container for grid*/ 
+.container1 {
+    display: grid;
+    grid-template-columns: 50% auto;
+    position:  relative;
+}
+
+/* fix mainly buttons zodat ze niet al teveel bewegen of verdwijnen*/
+
+#stickinginplace {
+    position: relative;
+
+}
+  
+    
+@media (min-width: 600px ) {
+    img[src="images/milk%20splash.png"] {
+        height: 200px;
+        
+    }
+    
+     /*large screens*/
+@media (min-width: 601px ) {
+    img[src="images/milka%20and%20oreo.jpg" ] {
+        height: 200px;
+        object-fit: cover;
+        
+    }
+    
+    /*small screens*/
+@media (max-width: 300px ) {
+    img[src="images/milka%20and%20oreo.jpg" ] {
+        height: 150px;
+        object-fit: cover;
+        
+    }
+    
+@media (min-width: 600px ) {
+     img[src="images/milka%20bubbles.jpg" ] {
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    .nieuwsbutton {
+        display: flex;
+        align-items: center;
+    flex-wrap: wrap;
+        width: 100%;
+        max-width: 100%;
+        direction: ltr; 
+    }
+    
+/*footer*/
+
+footer:nth-of-type(1) {
+    font-family: 'Quicksand', sans-serif;
 }
 
 ol {
     list-style-type: none;
+    
 }
+    
+
     
