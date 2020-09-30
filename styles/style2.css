@@ -1,0 +1,296 @@
+main {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+h1 {
+    font-family: 'Recoleta Medium', 'Domine', serif;
+    font-size: 25px;
+    color: #3b2774;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    margin: 10px;
+}
+
+h2 {
+    font-family: 'Recoleta Medium', 'Domine', serif; 
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: #3b2774;
+    z-index: 1;
+    position: absolute;
+    top: 10em;
+    right: 0;
+    left: 0;
+}
+
+/*images*/
+
+img[src="images/Milka%20logo.png"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 7em;
+    padding: 10px;
+}
+
+img[src="images/milka%20cow.png" ] {
+    display: flex;
+    position: relative;
+    right: 10em;
+    top: 10em;  
+}
+
+img[src="images/milka%20nature2.png"]{
+    display: flex;
+    position: relative;
+    left: 10em;
+    border: 5px solid white;
+    box-shadow: 4px 4px 5px grey;
+    transform: rotate(7deg);
+}
+
+button {
+    left: 6em;
+    right: 6em;
+    top: 20em;
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #7d6baa;
+    color: white;
+    border-radius: 30em;
+    border-color: #7d6baa;
+    padding: 10px; 
+    margin: 10px;
+}
+
+.menuknop {
+    display: inline-flex;
+    align-items: center;
+    z-index: 1;
+    font-size: 19px;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+/*sections opmaak*/
+
+main > div > section {
+    display: block;
+    margin: 0;
+}
+
+main > section:nth-of-type(1) {
+    display: block;
+    padding: 10px;
+}
+
+main > section:nth-of-type(2) {
+    display: block;
+    background-color: #7d6baa;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+main > section:nth-of-type(3) {
+    display: block;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+main > section:nth-of-type(4) {
+    display: block;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+main > section:nth-of-type(5) {
+    display: block;
+    background-color: #7d6baa;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+main > section:nth-of-type(6) {
+    display: block;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+
+main > section:nth-of-type(7) {
+    display: block;
+    padding: 10px;
+}
+
+main > section:nth-of-type(8) {
+    display: block;
+    background-color: #7d6baa;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+main > section:nth-of-type(9) {
+    display: block;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+
+main > section:nth-of-type(10) {
+    display: block;
+    padding: 10px;
+}
+
+main > section:nth-of-type(11) {
+    display: block;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+main > section:nth-of-type(12) {
+    display: block;
+    background-color: #7d6baa;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+main > section:nth-of-type(13) {
+    display: block;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+main > section:nth-of-type(14) {
+    display: block;
+    padding: 10px;
+}
+
+main > section:nth-of-type(15) {
+    display: block;
+    background-color: #7d6baa;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+main > section:nth-of-type(16) {
+    display: block;
+    padding: 10px;
+}
+
+main > section:nth-of-type(17) {
+    display: block;
+    padding: 10px;
+}
+
+main > section:nth-of-type(18) {
+    display: block;
+    background-color: #7d6baa;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+main > section:nth-of-type(19) {
+    display: block;
+    background-color: #7d6baa;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+main > section:nth-of-type(20) {
+    display: block;
+    padding: 10px;
+}
+
+main > section:nth-of-type(21) {
+    display: block;
+    background-color: #7d6baa;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+main > section:nth-of-type(22) {
+    display: block;
+    padding: 10px;
+}
+
+main > section:nth-of-type(23) {
+    display: block;
+    background-color: #7d6baa;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+main > section:nth-of-type(24) {
+    display: block;
+    padding: 10px;
+}
+
+main > section:nth-of-type(25) {
+    display: block;
+    background-color: #7d6baa;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+main > section:nth-of-type(26) {
+    display: block;
+    padding: 10px;
+}
+
+main > section:nth-of-type(27) {
+    display: block;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+#stickingintoplace {
+    position: relative;
+}
+
+

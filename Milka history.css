@@ -1,3 +1,72 @@
 main {
     overflow-x: hidden;
 }
+
+body {
+    background: lavenderblush;
+}
+
+header {
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    font-size: 3px;
+}
+
+
+header {
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header nav {
+    flex-grow: 1;
+}
+
+
+header nav ul {
+    max-height: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 500ms ease;
+    transform: translateX(-6vw);
+    background: white;
+    color: black;
+    max-height: 0;
+}
+
+header nav li {
+    flex-grow: 1;
+    text-align: center;
+    min-width: 1em;
+}
+
+
+header nav a {
+    line-height: 2em;
+
+}
+
+nav ul li a {
+    font-size: 19px;
+    font-family: 'Recoleta Medium', 'Domine', serif;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
