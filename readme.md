@@ -3,7 +3,7 @@
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
-* <em>De tussentijdse updates heb ik zelf toegevoegd omdat ik eerst dacht dat je een zelf een procesboek per week moest maken, dus ik heb de andere weken hierin gezet omdat het echte procesverslag is.</em>
+* <em>De tussentijdse updates heb ik zelf toegevoegd omdat ik eerst dacht dat je zelf een procesboek per week moest bijhouden, dus ik heb de andere weken hierin gezet, omdat dit het echte procesverslag is.</em>
 
 
 
