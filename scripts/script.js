@@ -6,3 +6,4 @@ function toonMenu() {
 }
 
 menuknop.addEventListener('click', toonMenu);
+

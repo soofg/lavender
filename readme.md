@@ -4,31 +4,53 @@
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 * <em>De tussentijdse updates heb ik zelf toegevoegd omdat ik eerst dacht dat je zelf een procesboek per week moest bijhouden, dus ik heb de andere weken hierin gezet, omdat dit het echte procesverslag is.</em>
-
-
-
+ 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. http://pxtoem.com/
+2. https://html-css-js.com/css/generator/box-shadow/
 
 
 
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+Ik heb veel gedaan, de laatste puntjes op de i gezet maar het ging wat moeilijker dan verwacht. Aangezien ik ook een srp heb gedaan, heb ik heel erg gecombineerd tussen FED en de srp.
+
+Ik had moeite om de de images in en uit te laten zoomen bij een hover, op het internet stonden veel verschillende methodes maar die vond ik vaakk veels te moeilijk of onduidelijk. Uiteindelijk is het mij wel gelukt door css te gebruiken die ik al kende namelijk de transform en transition functie.
+
+Ik heb 2 css bestanden en ik wist aan het begin niet dat dit er maar 1 hoort te zijn, ik heb meerdere keren geprobeerd om het in een css te stoppen maar aangezien ik al zo ver in het proces was stond alles enorm door elkaar. Als ik de volgende keer aan het begin weet dat ik en css moet maken kan ik daar beter rekenen mee houden omdat ik dan beiden pagina's tijdig kan aanpassen. In principe is de stof hetzelfde maar dan in een bestand.
+
+Iets wat ik ook heb geleerd in css is dat soms de volgorde van de code ervoor zorgt dat andere code niet werkt. Mijn footer reageerde namelijk eerst niet op mijn display: grid en ik kreeg hier een aantal dagen enorme stress van, en uiteindelijk was de oplossing simpel. In de inspector ston de footer op display:block; en door de volgorde van de code te veranderen nam hij display:grid; wel over. Dus dat was best leerzaam om te weten. Vooral als het duidelijk is dat je geen verkeerde code gebruikt.
+
+Ik merk dat bij de milka geschiedenis pagina de h3 en startknop soms anders gaan staan, maar daarna gaan ze weer staan zoals ze horen zonder dat ik iets in de code verander. Ik heb het ook buiten de livepreview getest, dus ik neem aan dat ze goed staan.
+
+Dit was zeker een rollercoaster!
 
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
+![Desktop website: photo 1](images/indexpaginadesktop.png)
+![Mobiele website: photo 2](images/indexpaginamobiel.png)
+
+
+-screenshot(s) van hoe ver je bent (tweede pagina)-
+![Desktop website: photo 1](images/Milkageschiedenispaginadesktop.png)
+De start knop in deze screenshit staat niet op de plek waar hij echt staat, hieronder nog een apart screenshot van dezelfde pagina >
+![desktop website: photo 2](images/milkageschiedenisdesktop2.png)
+![Mobiele website: photo 3](images/milkageschiedenismobiel1.png)
+![Mobiele website: photo 4](images/milkageschiedenismobiel2.png)
+![Mobiele website: photo 4](images/milkageschiedenismobiel3.png)
 
 
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+-dit ging goed & dit was lastig-
 
+In week 6 heb ik iets minder aan mijn website gewerkt, bezig met anderen vakken maar na het vorige voortgangsgesprek had ik een aantal punten die ik zou moeten veranderen, zoals beter kijken naar correcte html. Sections mogen bijvoorbeeld een gebruikt worden met een heading, maar bij articles hoeft dat niet perse omdat een article op zichzelf moet kunnen staan, dat houdt in dat het alleenstaand ook genoeg informatie moet geven.
 
+Ik ga nog een grid in de footer toevoegen en in de index.html de afbeeldingen laten inzoomen als je er met de muis overheen gaat.
+Ook px  veranderen naar em.
 
 ## Voortgang 2 (week 5)
 
